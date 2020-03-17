@@ -1,6 +1,8 @@
 <html>
 <head>
+<meta charset="utf-8">
 <title>MI VIAJE POR EL MUNDO</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 </head>
 <body>
 <h1>Viajeros por el mundo</h1>
