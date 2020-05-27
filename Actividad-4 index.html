@@ -6,15 +6,15 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
-<h1> si hay datos hay tabla </h1>
+<h1> <strong>DIFERENTES TIPOS DE TABLAS</strong> </h1>
 
 <body class="m-3">
 	<h2>Tabla simple</h2>
 	<p>Tabla-Cuerpo-Fila-Celda</p>
-	<table class="table table-bordered">
+	<table class="table table-bordered table-dark">
 		<tbody>
 			<tr>
-				<td>Hola</td>
+				<td>Ejemplos</td>
 			</tr>
 		</tbody>
 	</table>
@@ -42,46 +42,46 @@
 	<table class="table table-bordered table-striped table-hover table-dark">
 		<thead>
 			<tr>
-				<th>Clave</th>
-				<th>Valor</th>
+				<th>Habitacion</th>
+				<th>Nombre Completo</th>
 			</tr>
 		</thead>
 
 		<tbody>
 			<tr>
-				<td><strong>Nombre</strong></td>
-				<td>Bob</td>
+				<td><strong>102</strong></td>
+				<td>Camila Fabiani</td>
 			</tr>
 			<tr>
-				<td><strong>Apellido</strong></td>
-				<td>Marley</td>
+				<td><strong>105</strong></td>
+				<td>Federico Bongiovanni</td>
 			</tr>
 
 		</tbody>
 	</table>
 	<h2>Tabla con cabecera, cuerpo, pie de pagina y caption</h2>
 	<table class="table table-bordered table-striped table-hover table-dark">
-		<caption>Tabla sin mucho sentido</caption>
+		<caption>Huespedes in house - Hotel Selina</caption>
 		<thead>
 			<tr>
-				<th>Clave</th>
-				<th>Valor</th>
+				<th>Habitacion</th>
+				<th>Nombre completo</th>
 			</tr>
 		</thead>
 
 		<tbody>
 			<tr>
-				<td><strong>Nombre</strong></td>
-				<td>Bob</td>
+				<td><strong>802</strong></td>
+				<td>Tobias Bongiovanni</td>
 			</tr>
 			<tr>
-				<td><strong>Apellido</strong></td>
-				<td>Marley</td>
+				<td><strong>805</strong></td>
+				<td>Gisela Ariza</td>
 			</tr>
 		<tfoot>
 			<tr>
-				<th>Total</th>
-				<th>Bob Marley</th>
+				<th>Total de huespedes</th>
+				<th>2</th>
 			</tr>
 		</tfoot>
 
@@ -89,42 +89,48 @@
 	</table>
 	<h2>Columnas largas</h2>
 	<table class="table table-bordered table-striped table-hover">
-		<thead>
+		<thead class="table-dark">
 			<tr>
-        <th>A</th>
-        <th>B</th>
-        <th>And</th>
-        <th>Or</th>
+				<th colspan="2">INPUT</th>
+				<th colspan="2">OUTPUT</th>
 
-				</tr>
-			
+			</tr>
+
+			<tr>
+				<th>A</th>
+				<th>B</th>
+				<th>And</th>
+				<th>Or</th>
+
+			</tr>
+
 		</thead>
 		<tbody>
-      <tr>
-        <td>True</td>
-         <td>True</td>
-         <td>True</td>
-         <td>True</td>
+			<tr>
+				<td>True</td>
+				<td>True</td>
+				<td>True</td>
+				<td>True</td>
 
-      </tr>
-<tr>
-        <td>True</td>
-         <td>false</td>
-         <td>False</td>
-         <td>True</td>
-      </tr>
-      <tr>
-        <td>False</td>
-         <td>True</td>
-         <td>False</td>
-         <td>True</td>
-      </tr>
-      <tr>
-        <td>False</td>
-         <td>False</td>
-         <td>False</td>
-         <td>False</td>
-      </tr>
+			</tr>
+			<tr>
+				<td>True</td>
+				<td>false</td>
+				<td>False</td>
+				<td>True</td>
+			</tr>
+			<tr>
+				<td>False</td>
+				<td>True</td>
+				<td>False</td>
+				<td>True</td>
+			</tr>
+			<tr>
+				<td>False</td>
+				<td>False</td>
+				<td>False</td>
+				<td>False</td>
+			</tr>
 		</tbody>
 	</table>
 
