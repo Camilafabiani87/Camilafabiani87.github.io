@@ -1,0 +1,28 @@
+/*por tag*/
+h2 {color: red; font-size: 36pt;}
+p {color: rgb(0, 17, 255); font-family: monospace; font-size: 20pt;}
+/*por id */
+#titulo-1 {font-style: italic;}
+#titulo-2{font-weight: bold;}
+.base{
+  border : 4px dashed rgb(255, 0, 212);
+  padding: 1em 2em 3em 4em;
+  margin: 4em 3em 2em 1em;
+  margin-top: 4em;
+  margin-right: 3em;
+  padding-bottom: 3em;
+  padding-left: 4em;
+  
+}
+/*por clase*/
+.ultimo{color:green}
+/*combinado*/
+p.ultimo{color:blueviolet}
+.par.ultimo{font-weight: bold;}
+/*alternativas*/
+h2,h3 {color:cornflowerblue; font-size: 36pt;}
+/* descendiente */
+.base > h2{text-align: right;}
+.base > p >span {text-decoration: underline;}
+/*descendiente indirecto */
+.base.ejemplo {font-family: sans-serif;}
